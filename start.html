@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+input[type=text] ,select{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=submit] {
+    width: 130px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    
+     -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+
+}
+
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+</style>
+</head>
+<body>
+
+<h1>This page is specially to know a data of people who visited this page:</h1>
+<div>
+<form>
+  <label for="fname">First Name:</label>
+    </br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </br>
+    <label for="lname">Last Name:</label>
+    </br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </br>
+    
+    <label for="country">Country</label>
+    </br>
+     <select id="country" name="country">
+<option value="usa">India</option>
+    
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+
+    </select>
+  
+    </br>
+    <p><b><a href="file:///C:/Users/user/Desktop/New%20folder%20(4)/home.html" >SUBMIT</a></b></p>
+
+ </div>
+</form>
+
+</body>
+</html>
